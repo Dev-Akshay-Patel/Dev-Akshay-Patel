@@ -1,4 +1,4 @@
-class Developer {
+'''class Developer {
   constructor() {
     this.language = ["JavaScript", "Python", "HTML", "CSS3];
     this.frameworks = ["React", "Express", "Firebase"];
@@ -19,7 +19,7 @@ class Developer {
       }
     }
   }
-}
+}'''
 
 const me = new Developer();
 me.debug();
