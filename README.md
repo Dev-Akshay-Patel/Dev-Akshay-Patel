@@ -63,7 +63,7 @@ me.debug();
 
 ---
 
-## 🕳️ Where You’ll Find Me  
+### 🕳️ Where You’ll Find Me  
 
 - **In your dev console**: `console.log("I'm still here...")`  
 - **In your CSS file**: `:nth-child(999) { visibility: hidden; }`  
