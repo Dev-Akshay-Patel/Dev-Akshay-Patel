@@ -1,16 +1,42 @@
-## Hi there 👋
+class Developer {
+  constructor() {
+    this.language = ["JavaScript", "Python", "HTML", "CSS3];
+    this.frameworks = ["React", "Express", "Firebase"];
+    this.version = "Always Beta";
+  }
 
-<!--
-**Dev-Akshay-Patel/Dev-Akshay-Patel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  work() {
+    console.log("Refactoring life decisions...");
+  }
 
-Here are some ideas to get you started:
+  debug() {
+    while (true) {
+      try {
+        this.work();
+        break;
+      } catch (error) {
+        console.warn("Fixed one bug, created 10 more...");
+      }
+    }
+  }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const me = new Developer();
+me.debug();
+
+🖤 What I Do
+------------
+
+*   parent.killChild(this); // RIP old ideas
+    
+*   document.body.removeChild(document.body.firstChild); // You saw nothing
+    
+*   setTimeout(() => { document.body.innerHTML = ""; }, 3000); // Goodnight...
+    
+*   CSS: div:nth-child(666) { display: none; } // Vanished into the abyss
+    
+*   window.close(); // You can't escape
+    
+*   debug(); // Error: Debugging not found
+    
+*   let orphan = document.querySelector(".child"); orphan.remove(); // No one will notice
